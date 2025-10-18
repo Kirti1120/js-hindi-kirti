@@ -34,14 +34,14 @@ const debitCard = true
 const loggedFromGoogle = false
 const loggedInFromEmail = true
 
-if(userLoggedIn && debitCard){
+if(userLoggedIn && debitCard){                            //AND operator
     console.log("Allow to buy course");
     
 }
 
 
-if(loggedFromGoogle|| loggedInFromEmail){
-    console.log("User logged in");
+if(loggedFromGoogle|| loggedInFromEmail){            //OR operator
+    console.log("User logged in");            
     
 }
 

@@ -14,11 +14,38 @@ console.log(id === anotherId);  //false
 
 const arr = ["shaktiman", "doga", "naagraj"];
 let myObj = {
-    name = "kirti",
-    age = 23,
+    name: "kirti",   // ✅ बरोबर
+    age: 22
 }
+
+
 const myFunction = function(){
   console.log("hello world");
 }
 
 //javascript is the dynamically type language as we dont need to declare the variables the type is checked at runtime
+
+
+
+
+//*********************************************************** */
+
+//Stack(primitive) , Heap(non-primitive)
+
+let myYoutubename = "kirtishelke"
+let anotherName = myYoutubename
+anotherName = "chaiorcode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+   email : "kirti@gmail.com",
+   upi : "user@yybl"
+}
+let userTwo =userOne
+
+userTwo.email = "hitesh@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

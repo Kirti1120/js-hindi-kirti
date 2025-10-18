@@ -21,4 +21,27 @@ function One(){
    }
    Two()
 }
-One()
+//One()
+
+if(true){
+  const username = "kirti"
+  if(username === "kirti"){
+    const website = " youtube"
+    console.log(username + website);         // kirti youtube
+    
+  }
+}
+
+//************************ Interesting **************** */
+
+function addOne(num){
+  return num + 1
+}
+console.log(addOne(5));          //6      
+
+             /// OR
+
+const addTwo = function(num){
+        return num + 1
+}
+console.log(addOne(7));          //fakt he ahe te function declaration chya aadhi vapru shakat nahi error yeto mg
